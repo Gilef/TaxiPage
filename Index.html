@@ -5,18 +5,20 @@
   <meta charset="utf-8">
   <title>Страница такси</title>
   <link href="css/normalize.css" rel="stylesheet">
-  <link href="css/styleы.css" rel="stylesheet">
+  <link href="css/styles.css" rel="stylesheet">
 </head>
 
 <body>
   <header>
     <div class="wrap">
       <div class="header-top">
-        <h1>Оклейка авто под такси</h1>
-        <a href="tel:+79099817171">+7 (909) 981-71-71</a>
+        <h1>Оклейка авто <span>под такси</span></h1>
+        <a class="phone" href="tel:+79099817171">+7 (909) 981-71-71</a>
       </div>
+    </div>
 
-      <nav class="header-bot">
+    <nav class="header-bot">
+      <div class="wrap">
         <ul>
           <li>Оклейка авто</li>
           <li>Цены</li>
@@ -24,36 +26,46 @@
           <li>Примеры</li>
           <li>Отзывы</li>
         </ul>
-      </nav>
-    </div>
+      </div>
+    </nav>
+
   </header>
 
   <main>
     <section class="current-offer">
-      <p>Только до конца февраля!</p>
-      <p>
-        Только до конца февраля! Брендирование автомобиля под Яндекс + светодиодный “Light Box”
-        всего за 8 500 руб! Получите дополнительный приоритет заказов установив фирменный Light Box Яндекс!
-      </p>
+      <div class="wrap">
+        <p>Только до конца февраля!</p>
+        <p>
+          Только до конца февраля! Брендирование автомобиля под Яндекс + светодиодный “Light Box”
+          всего<br>
+          за 8 500 руб! Получите дополнительный приоритет заказов установив фирменный Light Box Яндекс!
+        </p>
 
-      <p> 8500 руб.</p>
-      <p>Оставьте заявку на оклейку авто, и мы вам перезвоним</p>
-      <div class="from-container">
-        <form class="application-from" action="#" method="POST">
-          <label>
-            Ваше имя
-            <input type="text" name="name" placeholder="Иван" required>
-          </label>
-          <label>
-            Ваш телефон
-            <input type="text" name="phone" placeholder="=7 --- --- -- --" required>
-          </label>
-          <select>
-            <option>Выбрать оклейку</option>
-            <option>Выбрать другую оклейку</option>
-          </select>
-          <input type="submit" name="name" value="Отправить заявку">
-        </form>
+        <span> 8500 РУБ.</span>
+        <p>Оставьте заявку на оклейку авто, и мы вам перезвоним</p>
+          <form class="application-from" action="#" method="POST">
+            <div class="name-container">
+              <label>
+                Ваше имя
+                <input type="text" name="name" placeholder="Иван" required>
+              </label>
+            </div>
+            <div class="phone-container">
+              <label>
+                Ваш телефон
+                <input type="text" name="phone" placeholder="+7 --- --- -- --" required>
+              </label>
+            </div>
+            <div class="select-container">
+              <select>
+                <option>Выбрать оклейку</option>
+                <option>Выбрать другую оклейку</option>
+              </select>
+            </div>
+            <div>
+            <input class="button" type="submit" value="Отправить заявку">
+          </div>
+          </form>
       </div>
     </section>
     <section class="offers">
@@ -67,17 +79,17 @@
         <div class="options-item">
           Брендирование по ГОСТУ
           <span class="options-price">4 000 руб</span>
-          <a class="button" href="#">Заказать обклейку</a>
+          <a class="button" href="#">Заказать оклейку</a>
         </div>
         <div class="options-item">
           Брендирование под Яндекс
           <span class="options-price">3 500 руб</span>
-          <a class="button" href="#">Заказать обклейку</a>
+          <a class="button" href="#">Заказать оклейку</a>
         </div>
         <div class="options-item">
           Брендирование под Яндекс + Light Box
           <span class="options-price">8 500 руб</span>
-          <a class="button" href="#">Заказать обклейку</a>
+          <a class="button" href="#">Заказать оклейку</a>
         </div>
 
       </div>
@@ -129,42 +141,42 @@
 
         <div class="photo-container">
           <div class="photo-item">
-            <img src="img/poto.png" width="225" height="41" alt="Фото">
+            <img src="img/photo.png" width="225" height="41" alt="Фото">
             <h3>Hyundai Solaris</h3>
             <p> 8 500 руб</p>
           </div>
           <div class="photo-item">
-            <img src="img/poto.png" width="225" height="41" alt="Фото">
+            <img src="img/photo.png" width="225" height="41" alt="Фото">
             <h3>Hyundai Solaris</h3>
             <p> 8 500 руб</p>
           </div>
           <div class="photo-item">
-            <img src="img/poto.png" width="225" height="41" alt="Фото">
+            <img src="img/photo.png" width="225" height="41" alt="Фото">
             <h3>Hyundai Solaris</h3>
             <p> 8 500 руб</p>
           </div>
           <div class="photo-item">
-            <img src="img/poto.png" width="225" height="41" alt="Фото">
+            <img src="img/photo.png" width="225" height="41" alt="Фото">
             <h3>Hyundai Solaris</h3>
             <p> 8 500 руб</p>
           </div>
           <div class="photo-item">
-            <img src="img/poto.png" width="225" height="41" alt="Фото">
+            <img src="img/photo.png" width="225" height="41" alt="Фото">
             <h3>Hyundai Solaris</h3>
             <p> 8 500 руб</p>
           </div>
           <div class="photo-item">
-            <img src="img/poto.png" width="225" height="41" alt="Фото">
+            <img src="img/photo.png" width="225" height="41" alt="Фото">
             <h3>Hyundai Solaris</h3>
             <p> 8 500 руб</p>
           </div>
           <div class="photo-item">
-            <img src="img/poto.png" width="225" height="41" alt="Фото">
+            <img src="img/photo.png" width="225" height="41" alt="Фото">
             <h3>Hyundai Solaris</h3>
             <p> 8 500 руб</p>
           </div>
           <div class="photo-item">
-            <img src="img/poto.png" width="225" height="41" alt="Фото">
+            <img src="img/photo.png" width="225" height="41" alt="Фото">
             <h3>Hyundai Solaris</h3>
             <p> 8 500 руб</p>
           </div>
